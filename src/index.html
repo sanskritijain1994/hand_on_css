@@ -207,21 +207,23 @@
 
     <div> <!-- Set the Font Family of an Element -->
         <style>
-            .red-text {
+            .red-text 
+            {
               color: red;
             }
           
-            p {
+            p 
+            {
               font-size: 16px;
               font-family:monospace;
             }
-          </style>
+        </style>
           
-          <h2 class="red-text">CatPhotoApp</h2>
-          <main>
-            <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+        <h2 class="red-text">CatPhotoApp</h2>
+        <main>
+           <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
           
-            <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+           <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
           
             <div>
               <p>Things cats love:</p>
@@ -981,6 +983,45 @@
               margin-right: 20px;
               margin-bottom: 20px;
               margin-left: 40px;
+            }
+          </style>
+          <h5 class="injected-text">margin</h5>
+          
+          <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box blue-box">padding</h5>
+          </div>
+    </div>
+
+    <div> <!-- Use Clockwise Notation to Specify the Padding of an Element -->
+        <style>
+            .injected-text {
+              margin-bottom: -25px;
+              text-align: center;
+            }
+          
+            .box {
+              border-style: solid;
+              border-color: black;
+              border-width: 5px;
+              text-align: center;
+            }
+          
+            .yellow-box {
+              background-color: yellow;
+              padding: 20px 40px 20px 40px;
+            }
+          
+            .red-box {
+              background-color: crimson;
+              color: #fff;
+              padding: 20px 40px 20px 40px;
+            }
+          
+            .blue-box {
+              background-color: blue;
+              color: #fff;
+              padding: 40px 20px 20px 40px
             }
           </style>
           <h5 class="injected-text">margin</h5>
